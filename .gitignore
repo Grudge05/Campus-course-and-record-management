@@ -1,0 +1,29 @@
+# Java compiled files
+*.class
+bin/
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Text files
+*.txt
+
+# PDF files
+*.pdf
+
+# Other files
+run_output.txt
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
