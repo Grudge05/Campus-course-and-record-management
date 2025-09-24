@@ -53,9 +53,9 @@ public abstract class Person {
     public String toString() {
         return "Person{" +
                 "id='" + id + '\'' +
-                ", fullName='" + fullName + '\'' +
-                ", email='" + email + '\'' +
-                ", dateOfBirth=" + dateOfBirth +
+                ", FullName='" + fullName + '\'' +
+                ", Email='" + email + '\'' +
+                ", DateOfBirth=" + dateOfBirth +
                 '}';
     }
 }

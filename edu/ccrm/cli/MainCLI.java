@@ -271,8 +271,8 @@ public class MainCLI {
         switch (choice) {
             case "1" -> {
                 System.out.print("Enter Instructor ID: ");
-                String id  = scanner.nextLine();
-                // For simplicity, no instructor service, so just print no results
+                //String id  = scanner.nextLine();
+              //For simplicity, no instructor service, so just print no results
                 System.out.println("Instructor filtering not implemented.");
             }
             case "2" -> {

@@ -37,10 +37,10 @@ public class Enrollment {
     @Override
     public String toString() {
         return "Enrollment{" +
-                "student=" + student.getFullName() +
-                ", course=" + course.getTitle() +
-                ", enrollmentDate=" + enrollmentDate +
-                ", grade=" + grade +
+                "Student=" + student.getFullName() +
+                ", Course=" + course.getTitle() +
+                ", EnrollmentDate=" + enrollmentDate +
+                ", Grade=" + grade +
                 '}';
     }
 }

@@ -33,9 +33,9 @@ public class Instructor extends Person {
     public String toString() {
         return "Instructor{" +
                 "id='" + getId() + '\'' +
-                ", fullName='" + getFullName() + '\'' +
-                ", email='" + getEmail() + '\'' +
-                ", assignedCourses=" + assignedCourses.size() +
+                ", FullName='" + getFullName() + '\'' +
+                ", Email='" + getEmail() + '\'' +
+                ", AssignedCourses=" + assignedCourses.size() +
                 '}';
     }
 }

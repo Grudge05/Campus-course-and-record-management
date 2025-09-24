@@ -78,13 +78,13 @@ public class Course {
     @Override
     public String toString() {
         return "Course{" +
-                "code='" + code + '\'' +
-                ", title='" + title + '\'' +
-                ", credits=" + credits +
-                ", instructor=" + (instructor != null ? instructor.getFullName() : "None") +
-                ", semester=" + semester +
-                ", department='" + department + '\'' +
-                ", active=" + active +
+                "Code='" + code + '\'' +
+                ", Title='" + title + '\'' +
+                ", Credits=" + credits +
+                ", Instructor=" + (instructor != null ? instructor.getFullName() : "None") +
+                ", Semester=" + semester +
+                ", Department='" + department + '\'' +
+                ", Active=" + active +
                 '}';
     }
 }

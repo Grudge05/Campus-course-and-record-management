@@ -71,12 +71,12 @@ public class Student extends Person {
     @Override
     public String toString() {
         return "Student{" +
-                "id='" + getId() + '\'' +
-                ", regNo='" + regNo + '\'' +
-                ", fullName='" + getFullName() + '\'' +
-                ", email='" + getEmail() + '\'' +
-                ", active=" + active +
-                ", enrolledCourses=" + enrolledCourses.size() +
+                "Id='" + getId() + '\'' +
+                ", RegNo='" + regNo + '\'' +
+                ", FullName='" + getFullName() + '\'' +
+                ", Email='" + getEmail() + '\'' +
+                ", Active=" + active +
+                ", EnrolledCourses=" + enrolledCourses.size() +
                 '}';
     }
 }
